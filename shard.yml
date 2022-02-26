@@ -1,0 +1,13 @@
+name: domotics
+version: 0.1.0
+
+authors:
+  - Vitaliy Sazonenko <v_sazonenko@wargaming.net>
+
+targets:
+  domotics:
+    main: src/domotics.cr
+
+crystal: 0.26.1
+
+license: MIT

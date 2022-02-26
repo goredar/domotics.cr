@@ -1,0 +1,16 @@
+drivers:
+  nano:
+    kind: arduino/fake
+    options:
+      path: "/dev/ttyNano"
+rooms:
+  living:
+    kind: living
+    driver: nano
+    units:
+      long_side_light:
+        kind: relay
+        driver_id: 13
+      light_switch:
+        kind: sensor
+        driver_id: 9
